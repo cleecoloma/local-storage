@@ -23,6 +23,7 @@ nav {
 nav ul {
   display: flex;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 li {
@@ -43,4 +44,24 @@ a {
 a:hover {
   background-color: rgb(201, 68, 68);
   border-radius: 8px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 300px;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 3rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  justify-content: center;
 }
