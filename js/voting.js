@@ -53,3 +53,4 @@ function handleImageClick(event) {
 
 renderProductImages();
 imgContainer.addEventListener('click', handleImageClick);
+
